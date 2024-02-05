@@ -1,0 +1,26 @@
+{
+  "name": "nextdemoblog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.17.1",
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.5",
+    "contentful": "^10.4.2",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.13",
+    "express": "^4.18.2",
+    "fastify": "^4.22.0",
+    "mkcert": "^3.0.0",
+    "next": "13.4.13",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
